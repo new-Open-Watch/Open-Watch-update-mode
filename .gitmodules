@@ -1,0 +1,3 @@
+[submodule "components/owgl"]
+	path = components/owgl
+	url = https://github.com/new-Open-Watch/OpenWatch-general-library.git
