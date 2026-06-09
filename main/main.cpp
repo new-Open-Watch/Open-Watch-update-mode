@@ -1,9 +1,8 @@
 #include <stdio.h>
+#include "esp_system.h"
+#include "owgl.h"
 extern "C" void app_main(void){
-    while (1)
-    {
-        printf("test");
-    }
-    
-    
+    init();
+    test();
+    while(true);
 }
